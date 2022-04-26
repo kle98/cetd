@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+.containerprincipal {
+    width: 1100px;
+    height: auto; 
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.nav{
+    display: inline-block;
+    width: 835px;
+    height: 40px;
+    background-color: rgb(2, 79, 11);
+    
+    
+
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: rgb(2, 79, 11);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+.B1 {
+    position: absolute;
+    top: 35px;
+    left: 140px;
+    width: 200px;    
+    height: 150px;
+    background-image: url(./recursos/logo/Diseño\ sin\ título\ 2.png);
+    
+}
+
+.B3 {
+    position: absolute;
+    top: 250px;
+    left: 665px;
+    width: 350px;    
+    height: 200px;
+    background-image: url(./recursos/logo/imagen\ inicio.png);
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    
+}
+
+/* experimento para subcontenedor de caja
+.B2 {
+    left: 450px;
+    top: 130px;
+    position: absolute;
+    width: 732px;    
+    height: 22px;
+    background-color:rgb(2, 79, 11);
+}
+aqui se editan los desplegables*/
+
+.B2 {
+    left: 450px;
+    top: 110px;
+    position: absolute;
+    width: 732px;    
+    height: 22px;
+    
+}
+
+.textbox {
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+    left: 260px;
+    top: 250px;
+    position: absolute;
+    width: 380px;    
+    height: 100px;
+    display: block;
+    
+}
+
+#menu ul{ 
+    position: absolute;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu #item{ 
+    float: left;
+    
+}
+/*aqui se editan los desplegables*/
+#menu #item a{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+        padding: 1px 22px;    
+        text-decoration: none; 
+        background-color: rgb(2, 79, 11);  
+        display: block;
+}
+
+#menu #desplegar{
+        display: none;
+
+}
+
+#menu #item a:hover{
+    background: white;
+    color: black;
+}
+
+#menu #item:hover #desplegar{
+    display: block;
+    min-width: 170px;
+}
+
+
+.sectionline {
+    position: absolute;
+    top: 200px;
+    left: 240px;
+    width: 800px;
+    height: 3px; 
+    background-color:black;
+    
+}
+
+.sectionline2 {
+    position: absolute;
+    top: 700px;
+    left: 240px;
+    width: 800px;
+    height: 3px; 
+    background-color:black;
+    
+}
+
+#li2 {
+    text-decoration: none;
+    
+    color:black;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: block;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(13, 13, 13);
+}
+
+
+form {
+    font-family: sans-serif;
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: rgb(185, 185, 185);
+    border-radius: 8px;
+    margin-top: 250px;
+
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+    border: none;
+
+
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 210px;
+    max-width: 100%;
+    min-width: 100%;
+}
+ #boton{
+    background: white;
+    color:black;
+    padding: 13px;
+ }
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
